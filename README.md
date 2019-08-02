@@ -1,4 +1,4 @@
-<img src="./images/logo.svg" alt="成語" height="300"/>
+<p align="center"><img src="./images/logo.svg?sanitize=true"  height="250"/></p> 
 
 # rime-hentaigana: 仮名集（特に変体仮名の入力システム）
 
