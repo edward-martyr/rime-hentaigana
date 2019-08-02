@@ -3,13 +3,15 @@ Input method of the complete set of kana, including hentaigana and other less us
 
 ## Installation
 
-Installing Plum：
+Install [rime](https://rime.im/) input engine if you have not. 
+
+### Installing Plum：
 
 ```bash
 curl -fsSL https://git.io/rime-install | bash
 ```
 
-Install  `rime-hentaigana` via Plum：
+### Install  `rime-hentaigana` via Plum：
 
 ```bash
 cd plum
@@ -23,7 +25,7 @@ Please check if the `opencc` folder is in the correct position if the kanji func
 ### Kana
 
 - Input of modern kana
-- Input of hentaigana (Kana Extended-A 1B100–1B12F & Kana Supplement 1B000–1B0FF)
+- Input of hentaigana (Kana Extended-A `1B100–1B12F` & Kana Supplement `1B000–1B0FF`)
   - 𛀀, 𛀄, etc. 
 - Input of 同じ marks
   - 〃, 々, ゝ, ゞ, 〴〵, etc. 
