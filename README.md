@@ -53,7 +53,7 @@ Install the `ipamjm.ttf` font file if you have not had a font able to display he
 
 Rendered using Pages on Mac:
 
-| Inputting                                                   | Result                                                   |
-| ----------------------------------------------------------- | -------------------------------------------------------- |
-| <img src="./images/inputting.png" alt="成語" height="600"/> | <img src="./images/result.png" alt="成語" height="600"/> |
+| Inputting                                        | Result                                        |
+| ------------------------------------------------ | --------------------------------------------- |
+| <img src="./images/inputting.png" height="600"/> | <img src="./images/result.png" height="600"/> |
 
