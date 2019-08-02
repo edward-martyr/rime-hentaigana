@@ -1,4 +1,7 @@
+<img src="./images/logo.svg" alt="成語" height="300"/>
+
 # rime-hentaigana: 仮名集（特に変体仮名の入力システム）
+
 Input method of the complete set of kana, including hentaigana and other less used kana sets, like those in 台湾語仮名. 
 
 ## Installation
@@ -45,4 +48,12 @@ In the menu you can switch from かな to 漢字 mode, which uses the `opencc` f
 The dictionary is written using strictly phonological romanisation, e.g. using `sy-` for しゃ行, and `tu` for つ. 
 
 Install the `ipamjm.ttf` font file if you have not had a font able to display hentaigana yet. 
+
+## Examples
+
+Rendered using Pages on Mac:
+
+| Inputting                                                   | Result                                                   |
+| ----------------------------------------------------------- | -------------------------------------------------------- |
+| <img src="./images/inputting.png" alt="成語" height="600"/> | <img src="./images/result.png" alt="成語" height="600"/> |
 
