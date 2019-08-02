@@ -1,5 +1,5 @@
-# rime-hentaigana: 一般の仮名と変体仮名の入力システム
- Input method of the complete set of kana, including hentaigana and other less used kana sets, like those in 台湾語仮名. 
+# rime-hentaigana: 仮名集（特に変体仮名の入力システム）
+Input method of the complete set of kana, including hentaigana and other less used kana sets, like those in 台湾語仮名. 
 
 ## Installation
 
@@ -23,7 +23,7 @@ Please check if the `opencc` folder is in the correct position if the kanji func
 ### Kana
 
 - Input of modern kana
-- Input of hentaigana
+- Input of hentaigana (Kana Extended-A 1B100–1B12F & Kana Supplement 1B000–1B0FF)
   - 𛀀, 𛀄, etc. 
 - Input of 同じ marks
   - 〃, 々, ゝ, ゞ, 〴〵, etc. 
@@ -41,3 +41,6 @@ In the menu you can switch from かな to 漢字 mode, which uses the `opencc` f
 ## Tip
 
 The dictionary is written using strictly phonological romanisation, e.g. using `sy-` for しゃ行, and `tu` for つ. 
+
+Install the `ipamjm.ttf` font file if you have not had a font able to display hentaigana yet. 
+
