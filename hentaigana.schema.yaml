@@ -1,0 +1,84 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: hentaigana
+  name: "変体仮名"
+  version: "2019.08.01"
+  author:
+    - 埃爾德路 ‹edwardmartyr@outlook.com›
+  description: |
+    変体仮名インプット＋相応の漢字インプット
+    Based on the Wikipedia page for Hentaigana
+
+switches:
+  - options: [ noop, hentaikanjitrans ]
+    states: [ かな, 漢字 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_mode
+    states: [ 中文, 西文 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - echo_translator
+    - punct_translator
+    - script_translator
+  filters:
+    - "simplifier@hentaikanji"
+    - uniquifier
+
+speller:
+  alphabet: "abcdefghijklmnopqrstuvwxyz-"
+  delimiter: " '"
+  algebra:
+    # Fuzzy spelling
+    - abbrev/^(vert).+$/$1/
+    - derive/^nn/n/
+    - derive/^x/l/
+    - derive/^zi/ji/
+    - derive/^hu/fu/
+    - derive/^k/c/
+    - derive/^g/q/
+    - derive/zi/dzi/
+    - derive/di/dzi/
+    - derive/du/dzu/
+    - derive/si/shi/
+    - derive/ti/chi/
+    - derive/ti/tsi/
+    - derive/tu/tsu/
+    - derive/^ty/ch/
+    - derive/^sy/sh/
+
+translator:
+  dictionary: hentaigana
+  spelling_hints: 5
+  comment_format:
+    - xform/&//
+
+hentaikanji:
+  option_name: hentaikanjitrans
+  opencc_config: hentai.json
+  tags: &simp_tags
+    [ abc ]  
+
+punctuator:
+  import_preset: symbols
+
+key_binder:
+  import_preset: default

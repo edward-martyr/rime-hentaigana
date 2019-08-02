@@ -1,0 +1,16 @@
+{
+  "name": "Hentaigana to Japanese New Kanji",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "hentai_kanji.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "text",
+      "file": "hentai_kanji.txt"
+    }
+  }]
+}
