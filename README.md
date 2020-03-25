@@ -1,4 +1,4 @@
-<p align="center"><img src="./images/logo.svg?sanitize=true"  height="250"/></p> 
+<p align="center"><img src="https://cdn.jsdelivr.net/gh/edward-martyr/rime-hentaigana@b010312/images/logo.svg?sanitize=true"  height="250"/></p> 
 
 # rime-hentaigana: <ruby>仮名集<rt>Kana Syū</ruby>（変体仮名、台湾語仮名、アイヌかな等をサポート）
 
@@ -55,5 +55,5 @@ Rendered using Pages on Mac:
 
 | Inputting                                        | Result                                        |
 | ------------------------------------------------ | --------------------------------------------- |
-| <img src="./images/inputting.png" height="600"/> | <img src="./images/result.png" height="600"/> |
+| <img src="https://cdn.jsdelivr.net/gh/edward-martyr/rime-hentaigana@b010312/images/inputting.png" height="600"/> | <img src="https://cdn.jsdelivr.net/gh/edward-martyr/rime-hentaigana@b010312/images/result.png" height="600"/> |
 
