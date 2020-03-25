@@ -1,6 +1,6 @@
 <p align="center"><img src="./images/logo.svg?sanitize=true"  height="250"/></p> 
 
-# rime-hentaigana: <ruby>仮名集<rt>Kana Syū</ruby>（変体仮名、台湾後仮名、アイヌかな等をサポート）
+# rime-hentaigana: <ruby>仮名集<rt>Kana Syū</ruby>（変体仮名、台湾語仮名、アイヌかな等をサポート）
 
 Input method of the complete set of kana, including hentaigana and other less used kana sets, like those in 台湾語仮名. 
 
