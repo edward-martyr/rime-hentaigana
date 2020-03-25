@@ -47,7 +47,7 @@ In the menu you can switch from かな to 漢字 mode, which uses the `opencc` f
 
 - The dictionary is written using strictly phonological romanisation, e.g. using `sy-` for しゃ行, and `tu` for つ. 
 
-- Install a font file that supports hentaigana if you haven't yet. For example, [IPAmj](https://mojikiban.ipa.go.jp/1300.html) could work. 
+- Install a font file that supports hentaigana if you haven't yet. For example, [一点明朝](https://github.com/ichitenfont/I.Ming), [IPAmj明朝](https://mojikiban.ipa.go.jp/1300.html) could work. 
 
 ## Examples
 
